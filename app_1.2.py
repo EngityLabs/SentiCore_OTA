@@ -67,7 +67,7 @@ btn.irq(trigger=Pin.IRQ_FALLING, handler=callback_btn)
 if pantalla_ok:
     oled.fill(0)
     oled.text("OTA EXITOSO!", 15, 20)
-    oled.text("APP v1.1 OK", 20, 40) # <--- VISUALIZACIÓN DEL CAMBIO
+    oled.text("APP v1.2 OK", 20, 40) # <--- VISUALIZACIÓN DEL CAMBIO
     oled.show()
     time.sleep(2)
 
